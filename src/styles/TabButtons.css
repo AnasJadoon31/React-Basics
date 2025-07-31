@@ -1,0 +1,80 @@
+#tab-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tab-buttons menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#tab-buttons h2 {
+    display: flex;
+    justify-content: left;
+}
+
+#tab-buttons section {
+    display: flex;
+    gap: 10px;
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #1a013a;
+    box-shadow: 0 2px 8px #646cffaa;
+
+}
+
+#tab-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #1a013a;
+    box-shadow: 0 2px 8px #646cffaa;
+    min-width: 1172px;
+    min-height: auto;
+}
+
+#tab-content h3 {
+    text-align: left;
+    font-family: Quicksand, sans-serif;
+    text-shadow: 0 0 2rem rgba(255, 255, 255, 0.67);
+    background: linear-gradient(to left, #7908a6, #1a013a);
+    box-sizing: border-box;
+    border-width: 100px;
+    width: min-content;
+    border-radius: 05px;
+}
+
+#tab-buttons p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#tab-content pre {
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #0e0022;
+    box-sizing: border-box;
+    border-width: 200px;
+    box-shadow: 2px 2px 4px #646cffaa;
+    text-align: left;
+    width: min-content;
+    height: auto;
+    border-radius: 5px;
+}
+
+#tab-buttons #initial {
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+    text-shadow: 0 0 2rem rgba(255, 255, 255, 0.67);
+    background: linear-gradient(to left, #7908a6, #1a013a);
+    border-radius: 5px;
+    width: max-content;       /* Keeps it as wide as content */
+    padding: 0.5rem 1rem;      /* Optional: for internal spacing */
+    margin: 20px auto;
+}
