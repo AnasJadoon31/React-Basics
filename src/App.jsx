@@ -10,11 +10,11 @@ import FurtherExplanation from "./modules/FurtherExplanation.jsx";
 function App() {
     return (
         <>
-            <Header/>
+            {/*<Header/>*/}
             <main>
                 <h1>HELLO WORLD</h1>
-                <CoreComponents/>
-                <FurtherExplanation/>
+                {/*<CoreComponents/>*/}
+                {/*<FurtherExplanation/>*/}
             </main>
         </>
     );
